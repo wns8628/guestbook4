@@ -163,7 +163,7 @@ public class GuestbookDao {
 	      try {
 	         Class.forName("com.mysql.jdbc.Driver"); // 패키지 이름
 
-	         String url = "jdbc:mysql://localhost:3306/webdb"; // DB 종류마다 url이 다르다
+	         String url = "jdbc:mysql://218.39.221.94:3306/webdb"; // DB 종류마다 url이 다르다
 	         conn = DriverManager.getConnection(url, "webdb", "webdb"); // interface
 	      } catch (ClassNotFoundException e) {
 	         System.out.println("드라이버 로딩 실패" + e);
